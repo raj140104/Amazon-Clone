@@ -1,0 +1,351 @@
+* {
+
+    margin: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/**Box 1**/
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav-logo {
+
+    height: 60px;
+    width: 120px;
+}
+
+.logo {
+
+    height: 60px;
+    width: 120px;
+    background-image: url("logo.png");
+    background-size: cover;
+    background-repeat: none;
+}
+
+.border {
+    border: 1px solid transparent;
+    border-radius: 1.3px;
+}
+
+.border:hover {
+    border: 1.3px solid white;
+    border-radius: 3px;
+}
+
+/**Box 2**/
+.first-add {
+    color: #eefffecc;
+    font-size: 0.8rem;
+
+}
+
+.sec-add {
+    color: #ffff;
+    font-size: 1rem;
+    margin-left: 3px;
+
+}
+
+.add-icon {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+/**Box 3**/
+
+.nav-search {
+    display: flex;
+
+    height: 36px;
+}
+
+.nav-search:hover {
+    border: 3px solid orange;
+    border-radius: 7px;
+}
+
+.search-option {
+    color: #575757;
+    background-color: aliceblue;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+}
+
+.search-input {
+    width: 500px;
+    border: none;
+}
+
+
+.search-icon {
+    background-color: #febd6a;
+    color: #0f1111;
+    width: 37px;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/** Box 4**/
+.country-name {
+    font-weight: bold;
+    background-color: #0f1111;
+    color: white;
+    border: none;
+}
+
+/** Box 5**/
+.font-size {
+    font-size: .8rem;
+}
+
+.nav-sec {
+    font-size: .9rem;
+    font-weight: bold;
+
+}
+
+.arrow {
+    background-color: #0f1111;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+/** Box 6**/
+
+.nav-cart i {
+    font-size: 2rem;
+}
+
+.nav-cart {
+    font-weight: bold;
+}
+
+/**Panel Box 1**/
+.panel {
+    background-color: #232f3e;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.panel1 i {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.panel2 p {
+    display: inline;
+    margin-left: 10px;
+
+}
+
+
+.panel2 {
+    width: 75%;
+    font-size: .85rem;
+
+}
+
+.panel3 {
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+/**Hero Section**/
+.hero-sec {
+    background-image: url("hero.png");
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
+
+.hero-mes {
+    background-color: white;
+    color: #0f1111;
+    height: 5vh;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .9rem;
+    position: relative;
+    margin-bottom: 5vh;
+}
+
+.hero-mes a {
+    color: #007185;
+}
+
+/** Content - section **/
+.category {
+    background-image: url("categorybg.png");
+    background-size: cover;
+    height: 1050px;
+    width: 100%;
+
+}
+
+.box {
+    background-color: white;
+    color: black;
+    height: 450px;
+    width: 30%;
+    padding: 10px;
+    margin-top: 15px;
+
+}
+
+.content-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 30px;
+
+
+}
+
+.content-sec a {
+    text-decoration: none;
+    color: #007185;
+
+}
+
+.box1-img {
+    background-image: url("deals.png");
+    background-size: cover;
+    height: 350px;
+    width: 95%;
+    margin: 10px;
+}
+
+.box2-img {
+    background-image: url("health.png");
+    background-size: cover;
+    height: 350px;
+    width: 95%;
+    margin: 10px;
+}
+
+.box3-img {
+    background-image: url("fit.png");
+    background-size: cover;
+    height: 350px;
+    width: 95%;
+    margin: 10px;
+}
+
+.box4-img {
+    background-image: url("gadgets.png");
+    background-size: cover;
+    height: 350px;
+    width: 95%;
+    margin: 10px;
+}
+
+.box5-img {
+    background-image: url("grocery.png");
+    background-size: cover;
+    height: 350px;
+    width: 95%;
+    margin: 10px;
+}
+
+.box6-img {
+    background-image: url("movie_ticket.png");
+    background-size: cover;
+    height: 350px;
+    width: 95%;
+    margin: 10px;
+}
+
+/** Footer**/
+footer {
+    margin-top: 20px;
+    color: white;
+}
+
+.foot-panel1 {
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37475a;
+    color: white;
+    font-size: .9rem;
+}
+
+.foot-panel2 {
+    padding-top: 20px;
+    background-color: #232f3d;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+}
+
+ul a {
+    margin-top: 10px;
+    display: block;
+    color: #dddd;
+    font-size: .85rem;
+
+}
+
+.foot-panel2 ul {
+    padding: 20px;
+}
+
+.foot-panel3 {
+    margin-top: 1px;
+    background-color: #232f3d;
+    display: flex;
+    justify-content: space-evenly;
+    height: 20vh;
+    align-items: center;
+
+}
+
+.foot-logo {
+    background-image: url("logo.png");
+    height: 60px;
+    width: 120px;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.foot-lang {
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+}
+
+
+.hero-sec {
+    background-image: url("hero.png");
+    height: 280px;
+    background-size: cover;
+
+}
